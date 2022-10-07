@@ -1,0 +1,1 @@
+This is a Lyft Ride GUI application that calculates the price of the lift ride.
