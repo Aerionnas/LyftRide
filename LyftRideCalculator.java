@@ -15,10 +15,10 @@ public class LyftRideCalculator{
   panel2.setLayout(new GridLayout(0,1));
   panel3.setLayout(new GridLayout(3,2));
 
-  
 
 
-  JTextArea textArea1= new JTextArea("pay is calculated by 5+3*dist+0.2*time");
+
+  JTextArea textArea1= new JTextArea("pay is calculated by 5+(3*distance)+(0.2*time)");
   JTextArea textArea2= new JTextArea("pickup fee: $5");
   JTextArea textArea3= new JTextArea("time fee:$.20/minute");
   JTextArea textArea4= new JTextArea("ride distance in miles");
@@ -49,7 +49,7 @@ public class LyftRideCalculator{
   panel4.add(button1);
 
 
-  
+
   panel2.setPreferredSize(new Dimension (125,1));
 
   panel3.setBackground(new Color(255,255,0));
